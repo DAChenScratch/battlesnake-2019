@@ -267,7 +267,7 @@ def move():
     moves = available if len(available) > 0 else better_moves
     moves = sort_moves(moves)
     # taunt = str(get_move_weights(moves[:3]))
-    taunt = 'hello'
+    taunt = '<3'
     return {'move': move.direction, 'taunt': taunt}
 
 
