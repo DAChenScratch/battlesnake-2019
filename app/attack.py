@@ -16,8 +16,12 @@ def value(game, distance, snake):
                                        params.ATTACK_DISTANCE_THRESH):
         return 0
 
+    num_snakes_mult = 0
+    if len(game.snakes) == 2:
+        num_snakes_mult = 0.5
     length_diff = my_size - snake.length()
-    return (1 / distance) + (params.ATTACK_LENGTH_MULTI * length_diff)
+    return (1 / distance) + (
+        params.ATTACK_LENGTH_MULTI * length_diff) + num_snakes_mult
 
 
 def attack(game):
