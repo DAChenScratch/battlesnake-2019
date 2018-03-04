@@ -34,10 +34,10 @@ def start():
 
     return {
         'color': '#4d3ae2',
-        'taunt': 'ha',
+        'taunt': 'i love you to death',
         'head_url': head_url,
         'name': '😍',
-        'head_type': 'fang',
+        'head_type': 'tongue',
         'tail_type': 'block-bum'
     }
 
