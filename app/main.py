@@ -36,7 +36,7 @@ def start():
         'color': '#4d3ae2',
         'taunt': 'i love you to death',
         'head_url': head_url,
-        'name': '😍',
+        'name': 'heart eyes',
         'head_type': 'tongue',
         'tail_type': 'block-bum'
     }
